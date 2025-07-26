@@ -1,0 +1,29 @@
+.file-tree {
+  font-family: Arial, sans-serif;
+}
+
+.file-node {
+  cursor: pointer;
+  user-select: none;
+}
+
+.node-header {
+  display: flex;
+  align-items: center;
+}
+
+.toggle-icon {
+  display: inline-block;
+  width: 1em;
+  margin-right: 0.25em;
+  font-weight: bold;
+}
+
+.active .node-header {
+  font-weight: bold;
+  color: #007acc;
+}
+
+.children {
+  margin-left: 0.5em;
+}
